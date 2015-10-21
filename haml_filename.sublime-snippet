@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-.filename{id: "#{__FILE__}"}
+.filename{id: "#{Pathname.new(__FILE__).relative_path_from(Rails.root)}"}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>filename</tabTrigger>
