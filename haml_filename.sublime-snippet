@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+.filename{id: "#{__FILE__}"}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.filename</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.haml</scope>
+  <description>Simple 
+</snippet>
