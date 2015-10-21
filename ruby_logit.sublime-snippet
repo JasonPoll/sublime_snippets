@@ -10,5 +10,5 @@ LOOOG
   <tabTrigger>logit</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.ruby</scope>
-  <description>Simple 
+  <description>Simple</description>
 </snippet>
