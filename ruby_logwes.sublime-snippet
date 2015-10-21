@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[Rails.logger.info("#{'-'*80}\n\n\n${1:Type Here}\n\n\n#{'-'*80}]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>logwes</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>
