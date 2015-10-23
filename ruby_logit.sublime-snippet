@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-Rails.logger.info<<-LOOOG
+Rails.logger.info <<-LOOOG
 #{'-'*80}
 ${1:Type Here}
 #{'-'*80}
