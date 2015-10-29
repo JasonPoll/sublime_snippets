@@ -388,7 +388,11 @@
         <th>Tab trigger</th>
         <th>Description</th>
       </tr>
-      <tr title='&#x000A;it &#x0027;${1:stubs and reminds you to write this test}&#x0027; do &#x000A;  ${2:expect("write this test, didn&#x0027;t you?").to eq("you forgot to")}&#x000A;end'>
+      <tr title="&#x000A;context ${1:'ze context'} do&#x000A;  $0&#x000A;end">
+        <td>context</td>
+        <td>Simple</td>
+      </tr>
+      <tr title='&#x000A;it &#x0027;${1:stubs and reminds you to write this test}&#x0027; do &#x000A;  $0${2:expect("write this test, didn&#x0027;t you?").to eq("you forgot to")}&#x000A;end'>
         <td>it</td>
         <td>Simple</td>
       </tr>
