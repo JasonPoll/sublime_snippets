@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-map{|| [] if true}
+map{|${1:x}| [${2:x.id}] ${3:if true} }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>mapdom</tabTrigger>
