@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+map{|${1:x}| [${2:x.id}] ${3:if true} }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mapdom</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>
