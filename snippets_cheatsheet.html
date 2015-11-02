@@ -404,8 +404,16 @@
         <td>logwes</td>
         <td>Simple</td>
       </tr>
+      <tr title='&#x000A;map{|${1:x}| [${2:x.id}] ${3:if true} }'>
+        <td>mapdom</td>
+        <td>Simple</td>
+      </tr>
       <tr title="&#x000A;puts '*'*550&#x000A;puts &#x000A;puts '*'*550">
         <td>putdom</td>
+        <td>Simple</td>
+      </tr>
+      <tr title='&#x000A;ActiveRecord::Base.transaction do&#x000A;  begin&#x000A;    ${1:puts "code"}&#x000A;  rescue =&gt; e&#x000A;    puts &#x0027;*&#x0027;*550&#x000A;    puts e&#x000A;    puts &#x0027;*&#x0027;*550&#x000A;  end&#x000A;end'>
+        <td>trandom</td>
         <td>Simple</td>
       </tr>
     </table>
