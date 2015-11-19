@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+expect(rendered).to have_xpath("${1:x/path/yo}")
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>xdom</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>
