@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 context '${1:ze context}' do
-  $0
+  $SELECTION$0
 end
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
