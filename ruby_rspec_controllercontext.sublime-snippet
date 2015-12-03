@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+context "GET#index" do
+
+end
+
+context "POST#create" do
+  
+end
+
+context "GET#new" do
+  
+end
+
+context "GET#edit" do
+  
+end
+
+context "GET#edit" do
+  
+end
+context "GET#show" do
+  
+end
+
+context "GET#update" do
+  
+end
+
+context "DELETE#destroy" do
+  
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>controllercontext</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>
