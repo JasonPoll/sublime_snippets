@@ -16,9 +16,6 @@ context "GET#edit" do
   
 end
 
-context "GET#edit" do
-  
-end
 context "GET#show" do
   
 end
