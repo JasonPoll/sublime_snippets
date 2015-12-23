@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:obj}.valid?).to eq(true)
+$1.${2:business_unit} = nil
+expect($1.valid?).to eq(false)
+expect($1.errors.keys).to include(:$2)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>expresence</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>
