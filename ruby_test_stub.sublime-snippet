@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 it '${1:stubs and reminds you to write this test}' do 
-  $0${2:expect("write this test, didn't you?").to eq("you forgot to")}
+  ${2:expect("write this test, didn't you?").to eq("you forgot to")}$0
 end
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
