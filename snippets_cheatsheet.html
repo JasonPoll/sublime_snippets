@@ -404,8 +404,12 @@
         <th>Tab trigger</th>
         <th>Description</th>
       </tr>
-      <tr title="&#x000A;context ${1:'ze context'} do&#x000A;  $SELECTION$0&#x000A;end">
+      <tr title="&#x000A;context '${1:ze context}' do&#x000A;  $SELECTION$0&#x000A;end">
         <td>context</td>
+        <td>Simple</td>
+      </tr>
+      <tr title='&#x000A;context "GET#index" do&#x000A;&#x000A;end&#x000A;&#x000A;context "POST#create" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#new" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#edit" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#edit" do&#x000A;  &#x000A;end&#x000A;context "GET#show" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#update" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "DELETE#destroy" do&#x000A;  &#x000A;end'>
+        <td>controllercontext</td>
         <td>Simple</td>
       </tr>
       <tr title='&#x000A;it &#x0027;${1:stubs and reminds you to write this test}&#x0027; do &#x000A;  $0${2:expect("write this test, didn&#x0027;t you?").to eq("you forgot to")}&#x000A;end'>
