@@ -412,7 +412,7 @@
         <td>controllercontext</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;expect(${1:obj}.valid?).to eq(true)&#x000A;$1.${2:business_unit} = nil&#x000A;expect($1.valid?).to eq(false)&#x000A;expect($1.errors.keys).to include(:$2)'>
+      <tr title='&#x000A;expect(${1:obj}).to be_valid&#x000A;$1.${2:business_unit} = nil&#x000A;expect($1).not_to be_valid&#x000A;expect($1.errors).to have_key(:$2)'>
         <td>expresence</td>
         <td>Simple</td>
       </tr>

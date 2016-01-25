@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-expect(${1:obj}.valid?).to eq(true)
+expect(${1:obj}).to be_valid
 $1.${2:business_unit} = nil
-expect($1.valid?).to eq(false)
-expect($1.errors.keys).to include(:$2)
+expect($1).not_to be_valid
+expect($1.errors).to have_key(:$2)
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>expresence</tabTrigger>
