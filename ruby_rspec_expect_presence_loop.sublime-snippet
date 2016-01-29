@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+%w(${1:field_log job_id}).each do |attr|
+  it "requires .#{attr}" do 
+    expect(${2:obj}).to be_valid
+    $2.send("#{attr}=", nil)
+    expect($2).not_to be_valid
+    expect($2.errors).to have_key(attr.to_sym)
+  end
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>exprleoopesence</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+  <description>Simple</description>
+</snippet>

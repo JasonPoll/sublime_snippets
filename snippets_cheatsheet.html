@@ -416,7 +416,7 @@
         <td>expresence</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;%w(${1:field_log,job_id}).each do |attr|&#x000A;  expect(${2:obj}).to be_valid&#x000A;  $2.send("#{attr}=", nil)&#x000A;  expect($2).not_to be_valid&#x000A;  expect($2.errors).to have_key(attr.to_sym)'>
+      <tr title='&#x000A;%w(${1:field_log job_id}).each do |attr|&#x000A;  it "requires .#{attr}" do &#x000A;    expect(${2:obj}).to be_valid&#x000A;    $2.send("#{attr}=", nil)&#x000A;    expect($2).not_to be_valid&#x000A;    expect($2.errors).to have_key(attr.to_sym)&#x000A;  end&#x000A;end'>
         <td>exprleoopesence</td>
         <td>Simple</td>
       </tr>
@@ -440,7 +440,7 @@
         <td>mapdom</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;puts &#x0027;*&#x0027;*550&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*550'>
+      <tr title='&#x000A;puts &#x0027;*&#x0027;*55&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*55'>
         <td>putdom</td>
         <td>Simple</td>
       </tr>
