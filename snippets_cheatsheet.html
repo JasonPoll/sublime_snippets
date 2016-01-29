@@ -440,8 +440,12 @@
         <td>mapdom</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;puts &#x0027;*&#x0027;*55&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*55'>
+      <tr title='&#x000A;puts &#x0027;*&#x0027;*550&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*550'>
         <td>putdom</td>
+        <td>Simple</td>
+      </tr>
+      <tr title='&#x000A;puts &#x0027;*&#x0027;*55&#x000A;puts "${1:up with it}"&#x000A;puts &#x0027;*&#x0027;*55'>
+        <td>putrspec</td>
         <td>Simple</td>
       </tr>
       <tr title='&#x000A;ActiveRecord::Base.transaction do&#x000A;  begin&#x000A;    ${1:puts "code"}&#x000A;  rescue =&gt; e&#x000A;    puts &#x0027;*&#x0027;*550&#x000A;    puts e&#x000A;    puts &#x0027;*&#x0027;*550&#x000A;    raise ActiveRecord::Rollback&#x000A;  end&#x000A;end'>

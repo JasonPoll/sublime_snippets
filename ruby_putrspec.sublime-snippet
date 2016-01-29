@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 puts '*'*55
-puts ${1:"word"}
+puts "${1:up with it}"
 puts '*'*55
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
