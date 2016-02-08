@@ -408,12 +408,16 @@
         <td>context</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;context "GET#index" do&#x000A;&#x000A;end&#x000A;&#x000A;context "POST#create" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#new" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#edit" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#edit" do&#x000A;  &#x000A;end&#x000A;context "GET#show" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#update" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "DELETE#destroy" do&#x000A;  &#x000A;end'>
+      <tr title='&#x000A;context "GET#index" do&#x000A;&#x000A;end&#x000A;&#x000A;context "POST#create" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#new" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#edit" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#show" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "GET#update" do&#x000A;  &#x000A;end&#x000A;&#x000A;context "DELETE#destroy" do&#x000A;  &#x000A;end'>
         <td>controllercontext</td>
         <td>Simple</td>
       </tr>
       <tr title='&#x000A;expect(${1:obj}.valid?).to eq(true)&#x000A;$1.${2:business_unit} = nil&#x000A;expect($1.valid?).to eq(false)&#x000A;expect($1.errors.keys).to include(:$2)'>
         <td>expresence</td>
+        <td>Simple</td>
+      </tr>
+      <tr title='&#x000A;puts &#x0027;*&#x0027;*315&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*315'>
+        <td>halfputdom</td>
         <td>Simple</td>
       </tr>
       <tr title='&#x000A;it &#x0027;${1:stubs and reminds you to write this test}&#x0027; do &#x000A;  ${2:expect("write this test, didn&#x0027;t you?").to eq("you forgot to")}$0&#x000A;end'>
@@ -436,7 +440,7 @@
         <td>mapdom</td>
         <td>Simple</td>
       </tr>
-      <tr title='&#x000A;puts &#x0027;*&#x0027;*550&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*550'>
+      <tr title='&#x000A;puts &#x0027;*&#x0027;*630&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*630'>
         <td>putdom</td>
         <td>Simple</td>
       </tr>
