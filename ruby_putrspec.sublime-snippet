@@ -1,12 +1,11 @@
 <snippet>
   <content><![CDATA[
-expect(${1:obj}).to be_valid
-$1.${2:business_unit} = nil
-expect($1).not_to be_valid
-expect($1.errors).to have_key(:$2)
+puts '*'*55
+puts "${1:up with it}"
+puts '*'*55
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>expresence</tabTrigger>
+  <tabTrigger>putrspec</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.ruby</scope>
   <description>Simple</description>
