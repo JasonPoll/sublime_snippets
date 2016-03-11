@@ -404,6 +404,10 @@
         <th>Tab trigger</th>
         <th>Description</th>
       </tr>
+      <tr title='&#x000A;allow(${1:obj}).to receive(:${2:method})$0'>
+        <td>allow</td>
+        <td>allow(obj).to receive(:method)</td>
+      </tr>
       <tr title="&#x000A;context '${1:ze context}' do&#x000A;  $SELECTION$0&#x000A;end">
         <td>context</td>
         <td>Simple</td>
@@ -447,6 +451,10 @@
       <tr title='&#x000A;puts &#x0027;*&#x0027;*630&#x000A;puts ${1:"word"}&#x000A;puts &#x0027;*&#x0027;*630'>
         <td>putdom</td>
         <td>Simple</td>
+      </tr>
+      <tr title='"#{&#x0027;-&#x0027;*$2}\n\n\n${1:Type Here}\n\n\n#{&#x0027;-&#x0027;*${2:55}}"'>
+        <td>putjtp</td>
+        <td>wrapped one-liner puts</td>
       </tr>
       <tr title='&#x000A;puts &#x0027;*&#x0027;*55&#x000A;puts "${1:up with it}"&#x000A;puts &#x0027;*&#x0027;*55'>
         <td>putrspec</td>

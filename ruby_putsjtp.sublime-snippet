@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA["#{'-'*$2}\n\n\n${1:Type Here}\n\n\n#{'-'*${2:55}}"]]></content>
+  <tabTrigger>putjtp</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>wrapped one-liner puts</description>
+</snippet>
