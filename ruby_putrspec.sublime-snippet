@@ -1,12 +1,10 @@
 <snippet>
   <content><![CDATA[
-puts '*'*55
-puts "${1:up with it}"
-puts '*'*55
+puts "#{'${1:-}'*55} #{'$TM_FILENAME'.gsub(/\..*\$/,'').camelize}#${2:your_method}"
+puts "${3:up with it}"
+puts '$1'*55
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>putrspec</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.ruby</scope>
   <description>Simple</description>
 </snippet>
